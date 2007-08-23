@@ -4,10 +4,10 @@
 %define		_status		stable
 %define		_pearname	Text_Wiki_Creole
 Summary:	%{_pearname} - Creole parser and renderer for Text_Wiki
-Summary(pl):	%{_pearname} - parser i renderer Creole dla Text_Wiki
+Summary(pl.UTF-8):	%{_pearname} - parser i renderer Creole dla Text_Wiki
 Name:		php-pear-%{_pearname}
 Version:	1.0.0
-Release:	0.1
+Release:	1
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
@@ -28,10 +28,10 @@ syntax here: http://www.wikicreole.org/
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Klasa ta parsuje znaczniki Creole w celu rozk³adu tekstu dla
-renderingu Text_Wiki jak i konwersji miêdzy wiki. Opis sk³adni
-dostêpny jest pod adresem: http://www.wikicreole.org/
+%description -l pl.UTF-8
+Klasa ta parsuje znaczniki Creole w celu rozk¿adu tekstu dla
+renderingu Text_Wiki jak i konwersji mi¿dzy wiki. Opis sk¿adni
+dost¿pny jest pod adresem: http://www.wikicreole.org/
 
 Ta klasa ma w PEAR status: %{_status}.
 
