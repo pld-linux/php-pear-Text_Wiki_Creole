@@ -29,9 +29,9 @@ syntax here: http://www.wikicreole.org/
 In PEAR status of this package is: %{_status}.
 
 %description -l pl.UTF-8
-Klasa ta parsuje znaczniki Creole w celu rozkładu tekstu dla
-renderingu Text_Wiki jak i konwersji między wiki. Opis składni
-dostępny jest pod adresem: http://www.wikicreole.org/
+Klasa ta analizuje znaczniki Creole w celu rozkładu tekstu dla
+renderingu Text_Wiki jak i konwersji przez wiki. Opis składni dostępny
+jest pod adresem: http://www.wikicreole.org/
 
 Ta klasa ma w PEAR status: %{_status}.
 
