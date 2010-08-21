@@ -1,19 +1,17 @@
 %include	/usr/lib/rpm/macros.php
-%define		_class		Text
-%define		_subclass	Wiki_Creole
 %define		_status		stable
 %define		_pearname	Text_Wiki_Creole
 Summary:	%{_pearname} - Creole parser and renderer for Text_Wiki
 Summary(pl.UTF-8):	%{_pearname} - parser i renderer Creole dla Text_Wiki
 Name:		php-pear-%{_pearname}
 Version:	1.0.1
-Release:	1
+Release:	2
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	83ed23059b4f99f01296e3bf6e018a61
 URL:		http://pear.php.net/package/Text_Wiki_Creole/
-BuildRequires:	php-pear-PEAR
+BuildRequires:	php-pear-PEAR >= 1:1.4.0-0.b1
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-pear
 Requires:	php-pear-Text_Wiki >= 1.0.1
