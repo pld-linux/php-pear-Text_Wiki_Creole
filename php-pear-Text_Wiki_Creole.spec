@@ -4,12 +4,12 @@
 Summary:	%{_pearname} - Creole parser and renderer for Text_Wiki
 Summary(pl.UTF-8):	%{_pearname} - parser i renderer Creole dla Text_Wiki
 Name:		php-pear-%{_pearname}
-Version:	1.0.1
-Release:	2
+Version:	1.0.2
+Release:	1
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	83ed23059b4f99f01296e3bf6e018a61
+# Source0-md5:	6741812b5e8d5c07c116da23dba9543a
 URL:		http://pear.php.net/package/Text_Wiki_Creole/
 BuildRequires:	php-pear-PEAR >= 1:1.4.0-0.b1
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
