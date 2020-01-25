@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_status		stable
 %define		_pearname	Text_Wiki_Creole
 Summary:	%{_pearname} - Creole parser and renderer for Text_Wiki
